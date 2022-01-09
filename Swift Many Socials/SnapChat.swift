@@ -1,9 +1,10 @@
-//
-//  SnapChat.swift
+//-------------------------------------
+// SnapChat.swift
 //  Swift Many Socials
-//
-//  Created by blaze Wheeler on 1/6/22.
-//
+//  Created by blaze Wheeler
+//-------------------------------------
+// Snapchat UI View
+//-------------------------------------
 
 import SwiftUI
 
@@ -18,22 +19,24 @@ struct SnapChat: View {
                     HStack(spacing: 0)
                     {
                         VStack(spacing:10) {
-                            ForEach(0 ..< 6) { item in
-                                //TO DO:
-                                // Make 2x Images
-                                // Add all 10 Bitmojis
+                            ForEach(0 ..< 4) { item in
+                                
                                 bitmojiImage(bitmojiImage: "Susan")
-            
+
                                 bitmojiImage(bitmojiImage: "Vijaya")
+                                bitmojiImage(bitmojiImage: "emoji6")
                                 }
+                            
                             }
                         VStack(spacing: 15) {
                             
-                            ForEach(0 ..< 6) { item in
+                            ForEach(0 ..< 4) { item in
                              
-                                snap_Chat_Text(nameOfUser: "Susan", image: "Opened2", msgStatus: "Tap to play", streak: "99")
+                                snap_Chat_Text(nameOfUser: "Susan", image: "Opened2", msgStatus: "Opened", streak: "99")
                                
-                                snap_Chat_Text(nameOfUser: "Vijaya", image: "Rectangle13", msgStatus: "Tap to view", streak: "67")
+                                snap_Chat_Text(nameOfUser: "Vijaya", image: "openedBlue", msgStatus: "Tap to view", streak: "67")
+                                
+                                snap_Chat_Text(nameOfUser: "Darren", image: "Rectangle13", msgStatus: "Tap to view", streak: "22")
                         }
                     }
                 }
@@ -46,6 +49,7 @@ struct SnapChat: View {
 struct SnapChat_Previews: PreviewProvider {
     static var previews: some View {
         SnapChat()
+.previewInterfaceOrientation(.portrait)
     }
 }
 
@@ -58,6 +62,8 @@ struct bitmojiImage: View {
             .scaledToFit()
             .frame(width: 70, height: 80)
             .frame(width: .infinity, alignment: .leading)
+       
+      
     }
 }
 
@@ -88,11 +94,15 @@ struct snap_Chat_Text: View {
                             .foregroundColor(.gray)
                             .frame(width: .infinity, alignment: .leading)
                     Spacer()
+                    Rectangle()
+                        .frame(width: 1, height: 20)
+                        .foregroundColor(.gray)
+                   
                     Image("snapchatMessage")
                         .padding(.horizontal)
                 }
+               
                 Divider()
-                
             }
             Divider()
         }
@@ -110,6 +120,7 @@ struct Snap_ChatHeader: View {
                 .font(.title)
                 .fontWeight(.heavy)
                 .padding(.horizontal)
+            Spacer()
                 
             HStack(spacing: 20.0){
                 Image("addFriend")

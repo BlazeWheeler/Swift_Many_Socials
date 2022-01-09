@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		9C835F7C2786E475009B15E9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F7B2786E475009B15E9 /* Card.swift */; };
 		9C835F7E278728EE009B15E9 /* SnapChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F7D278728EE009B15E9 /* SnapChat.swift */; };
+		9C835F86278A6F11009B15E9 /* FaceBookUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F85278A6F11009B15E9 /* FaceBookUI.swift */; };
 		9C92DE82277FAE5500F106AB /* Swift_Many_SocialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92DE81277FAE5500F106AB /* Swift_Many_SocialsApp.swift */; };
 		9C92DE84277FAE5500F106AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92DE83277FAE5500F106AB /* ContentView.swift */; };
 		9C92DE86277FAE5600F106AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C92DE85277FAE5600F106AB /* Assets.xcassets */; };
 		9C92DE89277FAE5600F106AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C92DE88277FAE5600F106AB /* Preview Assets.xcassets */; };
 		9C92DE96277FAEFA00F106AB /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92DE95277FAEFA00F106AB /* Instagram.swift */; };
 		9C92DE9C277FCA6900F106AB /* Tinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92DE9B277FCA6900F106AB /* Tinder.swift */; };
+		9CE3B863278AA04400525437 /* FaceBookUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3B862278AA04400525437 /* FaceBookUIView.swift */; };
 		9CFDCFAC2782B6250005996D /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDCFAB2782B6250005996D /* PostContent.swift */; };
 		9CFDCFAE2782BE810005996D /* InstaStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDCFAD2782BE810005996D /* InstaStories.swift */; };
-		9CFDCFB22782C0830005996D /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDCFB12782C0830005996D /* StoriesView.swift */; };
-		9CFDCFB42782C0900005996D /* FBPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDCFB32782C0900005996D /* FBPostView.swift */; };
-		9CFDCFB82782C28D0005996D /* FaceBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDCFB72782C28D0005996D /* FaceBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C835F7B2786E475009B15E9 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9C835F7D278728EE009B15E9 /* SnapChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChat.swift; sourceTree = "<group>"; };
+		9C835F85278A6F11009B15E9 /* FaceBookUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookUI.swift; sourceTree = "<group>"; };
 		9C92DE7E277FAE5500F106AB /* Swift Many Socials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Many Socials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C92DE81277FAE5500F106AB /* Swift_Many_SocialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Many_SocialsApp.swift; sourceTree = "<group>"; };
 		9C92DE83277FAE5500F106AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,11 +32,9 @@
 		9C92DE88277FAE5600F106AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C92DE95277FAEFA00F106AB /* Instagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
 		9C92DE9B277FCA6900F106AB /* Tinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder.swift; sourceTree = "<group>"; };
+		9CE3B862278AA04400525437 /* FaceBookUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookUIView.swift; sourceTree = "<group>"; };
 		9CFDCFAB2782B6250005996D /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
 		9CFDCFAD2782BE810005996D /* InstaStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaStories.swift; sourceTree = "<group>"; };
-		9CFDCFB12782C0830005996D /* StoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
-		9CFDCFB32782C0900005996D /* FBPostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBPostView.swift; sourceTree = "<group>"; };
-		9CFDCFB72782C28D0005996D /* FaceBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +75,8 @@
 				9CFDCFAB2782B6250005996D /* PostContent.swift */,
 				9C835F7B2786E475009B15E9 /* Card.swift */,
 				9C92DE9B277FCA6900F106AB /* Tinder.swift */,
-				9CFDCFB12782C0830005996D /* StoriesView.swift */,
-				9CFDCFB72782C28D0005996D /* FaceBook.swift */,
-				9CFDCFB32782C0900005996D /* FBPostView.swift */,
+				9CE3B862278AA04400525437 /* FaceBookUIView.swift */,
+				9C835F85278A6F11009B15E9 /* FaceBookUI.swift */,
 				9C92DE85277FAE5600F106AB /* Assets.xcassets */,
 				9C92DE87277FAE5600F106AB /* Preview Content */,
 			);
@@ -167,13 +164,12 @@
 				9C92DE96277FAEFA00F106AB /* Instagram.swift in Sources */,
 				9C92DE9C277FCA6900F106AB /* Tinder.swift in Sources */,
 				9CFDCFAC2782B6250005996D /* PostContent.swift in Sources */,
+				9C835F86278A6F11009B15E9 /* FaceBookUI.swift in Sources */,
 				9C92DE84277FAE5500F106AB /* ContentView.swift in Sources */,
-				9CFDCFB22782C0830005996D /* StoriesView.swift in Sources */,
-				9CFDCFB42782C0900005996D /* FBPostView.swift in Sources */,
 				9C835F7E278728EE009B15E9 /* SnapChat.swift in Sources */,
 				9CFDCFAE2782BE810005996D /* InstaStories.swift in Sources */,
 				9C92DE82277FAE5500F106AB /* Swift_Many_SocialsApp.swift in Sources */,
-				9CFDCFB82782C28D0005996D /* FaceBook.swift in Sources */,
+				9CE3B863278AA04400525437 /* FaceBookUIView.swift in Sources */,
 				9C835F7C2786E475009B15E9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

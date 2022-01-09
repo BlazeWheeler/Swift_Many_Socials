@@ -1,9 +1,10 @@
-//
+//-------------------------------------
 //  InstaStories.swift
 //  Swift Many Socials
-//
-//  Created by blaze Wheeler on 1/3/22.
-//
+//  Created by blaze Wheeler
+//-------------------------------------
+// Contains Story Content For Instagram()
+//-------------------------------------
 
 import SwiftUI
 

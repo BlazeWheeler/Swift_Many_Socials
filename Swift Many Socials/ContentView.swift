@@ -1,17 +1,32 @@
-//
-//  ContentView.swift
+//-------------------------------------
+// ContentView.swift
 //  Swift Many Socials
-//
-//  Created by blaze Wheeler on 12/31/21.
-//
-
+//  Created by blaze Wheeler
+//-------------------------------------
+// Home Default On FaceBookUIView()
+//-------------------------------------
 import SwiftUI
 
 struct ContentView: View {
-   
+    
+    var body: some View {
+     
+        tab_Bar()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
+
+struct tab_Bar: View {
     var body: some View {
         TabView {
-            FaceBook(text: .constant(""))
+            FaceBookUI()
                 .tabItem {
                     Image("facebook-square-fill")
                         .resizable()
@@ -37,11 +52,9 @@ struct ContentView: View {
                     Text("Tinder")
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .onAppear() {
+            UITabBar.appearance().barTintColor = .white
+            
+        }
     }
 }

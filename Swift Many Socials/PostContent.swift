@@ -1,9 +1,11 @@
-//
+//-------------------------------------
 //  PostContent.swift
 //  Swift Many Socials
-//
-//  Created by blaze Wheeler on 1/2/22.
-//
+//  Created by blaze Wheeler
+//-------------------------------------
+// Contains Post Content For Instagram()
+//-------------------------------------
+
 
 import SwiftUI
 

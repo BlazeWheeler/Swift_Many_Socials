@@ -1,9 +1,10 @@
-//
-//  Instagram.swift
+//-------------------------------------
+// Instagram.swift
 //  Swift Many Socials
-//
-//  Created by blaze Wheeler on 12/31/21.
-//
+//  Created by blaze Wheeler
+//-------------------------------------
+// Instagram UI View
+//-------------------------------------
 
 import SwiftUI
 

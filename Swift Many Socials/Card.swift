@@ -1,9 +1,10 @@
-//
-//  card. swift
-//  Contans Dummy Data For Tinder UI View
-//  TinderClone
-//  Created By Blaze Wheeler
-//
+//-------------------------------------
+//  Card.swift
+//  Swift Many Socials
+//  Created by blaze Wheeler
+//-------------------------------------
+// Contents For Tinder UI
+//-------------------------------------
 
 import UIKit
 
